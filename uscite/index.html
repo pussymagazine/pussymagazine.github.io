@@ -65,6 +65,23 @@
 		.image-link:hover img {
   			transform: scale(1.08);
 		}
+		.home-button {
+		    position: fixed;
+		    left: 30px;
+		    bottom: 30px;
+		    z-index: 2000;
+		    height: 10vh;
+			width: auto;
+		    border-radius: 50%;
+		    background: #542D10;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+			transition: transform 0.25s ease;
+		}
+		.home-button:hover {
+		    transform: scale(1.08);
+		}
         h1 {
             color: #FD66C5;
 			font-family: Helvetica-Neue;
@@ -133,5 +150,8 @@
 			</span>
 	   </div>
 	</footer>
+	<a class="home-button" href="/">
+		<img src="https://raw.githubusercontent.com/pussymagazine/pussymagazine.github.io/refs/heads/main/media/pics/LogoButton.png" style="height:10vh; width: auto; border-radius: 50%">
+	</a>
 </body>
 </html>
