@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pussy Magazine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		@font-face {
+			font-family: Helvetica-Neue;
+			src: url("/media/fonts/HelveticaNeueCondensed.ttf") format("truetype");
+		}
+		@font-face {
+			font-family: Madani-Arabic;
+			src: url("/media/fonts/MadaniArabic-Regular.otf") format("opentype");
+		}
+		@font-face {
+			font-family: Madani-Arabic;
+			src: url("/media/fonts/MadaniArabic-Bold.otf") format("opentype");
+			font-weight: bold;
+		}
+        body {
+            background-color: #FFFFF0;
+            font-family: monospace;
+            margin: 0; 
+        }
+		.text {
+			width: min(80%, 700px);
+			margin: 0 auto;
+		}
+		.text span {
+			display: block;
+			margin: 1em 0;
+		}
+        .topnav {
+            position: sticky;
+            top: 0; 
+            z-index: 1000;
+	    	font-size: 20px;
+			font-family: Helvetica-Neue;
+			font-weight: bold;
+			gap: 10px;
+            display: flex;
+            padding: 15px;
+            justify-content: center;
+            background: #542D10;
+            box-shadow: 0px 0px 0px #808080;
+        }
+		.header {
+			top: 0;
+			justify-content: center;
+			background: #542D10;
+			padding: 10px;
+		}
+		.img {
+    		display: flex;
+    		justify-content: center;
+		}
+		.img img{
+			object-fit: contain;
+		}
+		.image-link img {
+		  	display: block;
+		  	transition: transform 0.25s ease;
+		}
+		.image-link:hover img {
+  			transform: scale(1.08);
+		}
+		.home-button {
+		    position: fixed;
+		    left: 30px;
+		    bottom: 30px;
+		    z-index: 2000;
+		    height: 10vh;
+			width: auto;
+		    border-radius: 50%;
+		    background: #542D10;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+			transition: transform 0.25s ease;
+		}
+		.home-button:hover {
+		    transform: scale(1.08);
+		}
+        h1 {
+            color: #FD66C5;
+			font-family: Helvetica-Neue;
+            font-size: 46px;
+            text-align: center;
+        }
+		h2 {
+            color: #FD66C5;
+			font-family: Helvetica-Neue;
+            font-size: 34px;
+            text-align: center;
+        }
+        span {
+            color: #222222;
+            font-size: 22px;
+			font-family: Madani-Arabic;
+            text-align: left;
+	    	white-space: pre-line;
+        }
+        a {
+            color: #FD66C5;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FD66C5;
+        }
+        footer {
+            bottom: 0;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+	<div class="header">
+		<div class="img">
+			<a class="image-link" href="/">
+				<img src="https://raw.githubusercontent.com/pussymagazine/pussymagazine.github.io/refs/heads/main/media/pics/LogoMarrone.jpg" style="height: 30vh; width: auto">
+			</a>
+		</div>
+	</div>
+    <div class="topnav">
+        <a href="/uscite" style="color: #FD66C5">USCITE</a>
+		<a href="/rubriche" style="color: #FFFFF0">RUBRICHE</a>
+        <a href="/cos-e" style="color: #FFFFF0">COS'E</a>
+        <a href="/la-redazione" style="color: #FFFFF0">LA REDAZIONE</a>
+    </div>
+    <h1>
+      Uscite
+    </h1>
+	<div class="img">
+		<a class="image-link" href="/uscite/12-26">
+			<img src="https://raw.githubusercontent.com/pussymagazine/pussymagazine.github.io/refs/heads/main/media/copertine/Copertina_12-26.png" style="height: 60vh; width: auto">
+		</a>
+	</div>
+  <h2>
+    12/26
+  </h2>
+  <footer>
+		<div class="text">
+			<span>
+				Vuoi contattarci?
+				Email: pussymagazine@gmail.com
+				Insta: <a href="https://www.instagram.com/puss.magazine">@puss.magazine</a>
+				Vedi la fonte del sito <a href="https://www.github.com/pussymagazine/pussymagazine.github.io">qua</a>.
+			</span>
+	   </div>
+	</footer>
+	<a class="home-button" href="/">
+		<img src="https://raw.githubusercontent.com/pussymagazine/pussymagazine.github.io/refs/heads/main/media/pics/LogoButton.png" style="height:10vh; width: auto; border-radius: 50%">
+	</a>
+</body>
+</html>
